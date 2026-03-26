@@ -58,6 +58,15 @@ p {
     font-size: 15px;
 }
 
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+/* -------------------------------------------------------------- */
 a {
     display: inline-block;
     margin-top: 15px;
@@ -86,10 +95,36 @@ a:hover {
     transform: translateX(5px);
 }
 
-ul {
-    padding-left: 20px;
+/* -------------------------------------------------------------- */
+.projects {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-li {
-    margin-bottom: 8px;
+.project-card {
+    background: #f8f9fc;
+    padding: 15px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: 0.3s;
 }
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    margin: 10px 0 5px;
+}
+
+.project-card p {
+    font-size: 14px;
+}
+/* ----------------------------------------------------- */
