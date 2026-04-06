@@ -8,7 +8,7 @@ body {
 
 /* container */
 .container {
-    margin: 80px;
+    margin: 200px;
     /*max-width: 900px;
     background: white;
     padding: 40px;
@@ -23,15 +23,16 @@ body {
     position: relative;
 }
 
-/* بک‌گراند عکس */
+/* بک‌گراند عکس 
 .hero-bg {
     background: url("bg.jpg") center/cover no-repeat;
     height: 180px;
-}
-/*.hero-bg {
+}*/
+.hero-bg {
     background: #eaf1ff;
 }
 
+/*
 اگر بخوای یه ذره “طراحی‌تر” بشه:
 
 .hero-bg {
@@ -45,7 +46,7 @@ body {
 .hero-content {
     position: absolute;
     bottom: -60px; /* 👈 این باعث میشه عکس بیاد پایین */
-    left: 50px;
+    left: 30px;
     display: flex;
     align-items: center;
     gap: 20px;
