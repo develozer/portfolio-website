@@ -115,40 +115,39 @@ a:hover {
 .hero {
     text-align: center;
     background: #eaf1ff;
-    padding: 40px 20px;
+    /*padding: 40px 20px;*/
     border-radius: 12px;
 }
-
 /* عکس بزرگ‌تر و جذاب‌تر */
 .profile-left {
     width: 160px;
     height: 160px;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 15px;
 }
-
 
 /* متن کنار عکس */
 .hero-text h1 {
     margin: 0;
+    /* margin: 10px 0 5px;*/
     color: #1f3c88;
 }
 
 .hero-subtitle {
-    margin-top: 8px;
+    /*margin-top: 8px;*/
     color: #555;
     font-size: 14px;
 }
 
+.profile-left {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
 
 .about-text {
     margin-top: 10px;
     line-height: 1.7;
     color: #555;
-}
-
-.profile-left {
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 }
 
 /* برا خط  زیر عنوان */
