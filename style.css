@@ -8,7 +8,7 @@ body {
 
 /* container */
 .container {
-    margin: 180px;
+    margin: 220px;
     /*max-width: 900px;
     background: white;
     padding: 40px;
@@ -23,17 +23,17 @@ body {
     position: relative;
 }
 
-/* بک‌گراند عکس 
+/* بک‌گراند عکس */
 .hero-bg {
     background: url("bg.jpg") center/cover no-repeat;
-    height: 180px;
-}*/
-.hero-bg {
+    height: 160px;
+}
+
+/*.hero-bg {
     background: #eaf1ff;
     height: 200px;
 }
 
-/*
 اگر بخوای یه ذره “طراحی‌تر” بشه:
 
 .hero-bg {
