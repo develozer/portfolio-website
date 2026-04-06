@@ -1,18 +1,19 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #eef2f7;
+    /*background-color: #f5f7fb;*/
     color: #2c3e50;
     margin: 0;
 }
 
 /* container */
 .container {
-    max-width: 900px;
     margin: 100px;
+    /*max-width: 900px;
     background: white;
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);*/
 }
 
 /* header */
@@ -20,21 +21,31 @@ body {
 /* HERO BACKGROUND */
 .hero {
     position: relative;
-    height: 220px;
 }
 
 /* بک‌گراند عکس */
 .hero-bg {
     background: url("bg.jpg") center/cover no-repeat;
+    height: 180px;
+}
+/*.hero-bg {
+    background: #eaf1ff;
+}
+
+اگر بخوای یه ذره “طراحی‌تر” بشه:
+
+.hero-bg {
+    background: linear-gradient(135deg, #eaf1ff, #d6e4ff);
     height: 160px;
     border-radius: 12px 12px 0 0;
 }
+*/
 
 /* محتوا */
 .hero-content {
     position: absolute;
-    bottom: -50px; /* 👈 این باعث میشه عکس بیاد پایین */
-    left: 30px;
+    bottom: -60px; /* 👈 این باعث میشه عکس بیاد پایین */
+    left: 80px;
     display: flex;
     align-items: center;
     gap: 20px;
