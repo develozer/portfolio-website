@@ -119,20 +119,23 @@ a:hover {
     border-radius: 12px;
 }
 
-.profile-hero {
-    width: 150px;
-    height: 150px;
+/* عکس بزرگ‌تر و جذاب‌تر */
+.profile-left {
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px;
 }
 
-.hero h1 {
-    margin: 10px 0 5px;
+
+/* متن کنار عکس */
+.hero-text h1 {
+    margin: 0;
     color: #1f3c88;
 }
 
 .hero-subtitle {
+    margin-top: 8px;
     color: #555;
     font-size: 14px;
 }
@@ -142,6 +145,10 @@ a:hover {
     margin-top: 10px;
     line-height: 1.7;
     color: #555;
+}
+
+.profile-left {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 }
 
 /* برا خط  زیر عنوان */
@@ -167,27 +174,3 @@ h2::after {
     border-radius: 12px;
 } */
 
-/* عکس بزرگ‌تر و جذاب‌تر */
-.profile-left {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-/* متن کنار عکس */
-.hero-text h1 {
-    margin: 0;
-    color: #1f3c88;
-}
-
-.hero-subtitle {
-    margin-top: 8px;
-    color: #555;
-    font-size: 14px;
-
-}
-
-.profile-left {
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-}
