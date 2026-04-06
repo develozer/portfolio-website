@@ -4,13 +4,16 @@ body {
     /*background-color: #f5f7fb;*/
     color: #2c3e50;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 /* container */
 .container {
-    margin: 25px;
-    /*max-width: 900px;
-    background: white;
+    
+    max-width: 900px;
+    margin: 80px auto;
+    /*background: white;
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);*/
@@ -56,6 +59,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 /* عکس پروفایل */
@@ -145,11 +149,21 @@ a:hover {
 }
 
 
-
-
 .about-text {
     margin-top: 15px;
     line-height: 1.7;
     color: #555;
 }
 
+@media (max-width: 600px) {
+    .hero-content {
+        flex-direction: column;
+        align-items: flex-start;
+        left: 20px;
+    }
+
+    .profile-img {
+        width: 110px;
+        height: 110px;
+    }
+}
