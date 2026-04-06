@@ -19,13 +19,13 @@ body {
 .header {
     display: flex;
     align-items: center;
-    gap: 30px;
-    margin-bottom: 30px;
+    gap: 20px;
+    /* margin-bottom: 30px; */
 }
 
 .profile-left {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -109,4 +109,51 @@ a {
 
 a:hover {
     transform: translateY(-2px);
+}
+
+/* profile-hero */
+.hero {
+    text-align: center;
+    background: #eaf1ff;
+    padding: 40px 20px;
+    border-radius: 12px;
+}
+
+.profile-hero {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    margin: 10px 0 5px;
+    color: #1f3c88;
+}
+
+.hero-subtitle {
+    color: #555;
+    font-size: 14px;
+}
+
+
+.about-text {
+    margin-top: 10px;
+    line-height: 1.7;
+    color: #555;
+}
+
+/* برا خط  زیر عنوان */
+h2 {
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #2d6cdf;
+    margin-top: 5px;
 }
