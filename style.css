@@ -65,8 +65,9 @@ body {
 
 /* متن */
 .hero-text h1 {
-    /*margin: 5;*/
-    color: #dcdee4;
+    margin: 5;
+    color: white;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .hero-text p {
