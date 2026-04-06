@@ -65,19 +65,19 @@ body {
 
 /* متن */
 .hero-text h1 {
-    margin: 0;
+    margin: 15;
     color: #1f3c88;
 }
 
 .hero-text p {
-    margin-top: 5px;
+    margin-top: 20px;
     color: #555;
     font-size: 14px;
 }
 
 /* sections */
 section {
-    margin-top: 80px;
+    margin-top: 95px;
 }
 
 h2 {
