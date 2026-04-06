@@ -8,7 +8,7 @@ body {
 
 /* container */
 .container {
-    margin: 150px;
+    margin: 200px;
     /*max-width: 900px;
     background: white;
     padding: 40px;
@@ -45,7 +45,7 @@ body {
 .hero-content {
     position: absolute;
     bottom: -60px; /* 👈 این باعث میشه عکس بیاد پایین */
-    left: 80px;
+    left: 50px;
     display: flex;
     align-items: center;
     gap: 20px;
