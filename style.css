@@ -8,8 +8,8 @@ body {
 
 /* container */
 .container {
-    
     margin-top: 100px ;
+    padding: 0 10px;
     /*background: white;
     padding: 40px;
     border-radius: 12px;
