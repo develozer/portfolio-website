@@ -145,7 +145,7 @@ a:hover {
 }
 
 /* برا خط  زیر عنوان */
-h2 {
+/* h2 {
     position: relative;
 }
 
@@ -156,4 +156,38 @@ h2::after {
     height: 3px;
     background: #2d6cdf;
     margin-top: 5px;
+}
+
+.hero-left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background: #eaf1ff;
+    padding: 30px;
+    border-radius: 12px;
+} */
+
+/* عکس بزرگ‌تر و جذاب‌تر */
+.profile-left {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* متن کنار عکس */
+.hero-text h1 {
+    margin: 0;
+    color: #1f3c88;
+}
+
+.hero-subtitle {
+    margin-top: 8px;
+    color: #555;
+    font-size: 14px;
+
+}
+
+.profile-left {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 }
