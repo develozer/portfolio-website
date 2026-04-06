@@ -27,8 +27,13 @@ body {
 .hero-bg {
     background: url("bg.jpg") center/cover no-repeat;
     height: 160px;
+}*/
+.hero-bg {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+                url("bg.jpg") center/cover no-repeat;
+                height: 160px;
 }
-*/
+
 /*.hero-bg {
     background: #eaf1ff;
     height: 200px;
@@ -148,7 +153,3 @@ a:hover {
     color: #555;
 }
 
-.hero-bg {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
-                url("bg.jpg") center/cover no-repeat;
-}
